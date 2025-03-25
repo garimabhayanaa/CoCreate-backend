@@ -23,7 +23,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://cocreatecolab.netlify.app/",
+    origin: "https://cocreatecolab.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
